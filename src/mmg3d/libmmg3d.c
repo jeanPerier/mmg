@@ -40,7 +40,7 @@
  */
 
 #include "inlined_functions_3d.h"
-#include "mmg3dexterns.c"
+#include "mmg3dexterns.h"
 
 double (*MMG5_lenedg)(MMG5_pMesh mesh ,MMG5_pSol sol ,int n, MMG5_pTetra );
 double (*MMG5_lenedgspl)(MMG5_pMesh mesh ,MMG5_pSol sol ,int n, MMG5_pTetra );
